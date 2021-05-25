@@ -1,0 +1,42 @@
+.table {
+  grid-area: table;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+  background-color: green;
+}
+
+
+.tableOfNumbers {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+  flex-wrap: wrap;
+
+}
+.numbersGn {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  color: white;
+}
+.numbersG {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  border: 4px solid;
+  color: white;
+}
+.numbersR {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  border: 4px solid;
+  color: white;
+}
+.numbersB {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border: 4px solid;
+  color: white;
+}

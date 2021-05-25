@@ -1,0 +1,12 @@
+.rull {
+  grid-area: rull;
+  width: 300px;
+  height: 300px;
+  transform: rotate(0.2turn);
+  position: absolute;
+}
+
+.butt{
+  position: absolute;
+  top: 300px;
+}
